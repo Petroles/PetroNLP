@@ -3,6 +3,8 @@ Petro NLP is a comprehensive set of natural language processing and information 
 
 This repository has the NLP resources built with public information and can be openly shared. We built some of the datasets, corpora, and knowledge graphs with corporate data; they are described in the paper, but we cannot publish them.  
 
+![alt text](https://github.com/Petroles/PetroNLP/blob/main/Graphical%20Abstract.jpg)  
+
 The available resources are:
 
 ### Corpora
