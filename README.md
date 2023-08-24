@@ -22,5 +22,5 @@ Here, you find direct links for the corpora. More information and other corpora 
 
 ### Embeddings Models
 
-- PetroVec
+- [PetroVec](https://petroles.puc-rio.ai/files/embeddings/Petrovec_OeG_Word2vec.zip) - Models trained in Word2vec vectors with 100 dimensions, trained from public resources related to the O&G domain (Petrobras Technical Bulletins, Theses and Dissertations in petroleum related subjects; ANP's technical reports). More models are available on the [Petrolês website](https://petroles.puc-rio.ai/index_en.html).
 - PetroOntoVec
