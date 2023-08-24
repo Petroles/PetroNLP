@@ -17,7 +17,7 @@ Here, you find direct links for the corpora. More information and other corpora 
 
 ### Knowledge Graph
 
-- Petro KGraph Ontology
+- [Petro KGraph Ontology](https://github.com/Petroles/PetroNLP/blob/main/PetroKGraphOntology.owl) - It is the geological ontology used in this work. We borrowed most of the classes and relations from BFO and GeoCore and created some definitions specifically for the Petro KGraph.
 - Petro KGraph
 
 ### Embeddings Models
