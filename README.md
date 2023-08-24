@@ -18,9 +18,9 @@ Here, you find direct links for the corpora. More information and other corpora 
 ### Knowledge Graph
 
 - [Petro KGraph Ontology](https://github.com/Petroles/PetroNLP/blob/main/PetroKGraphOntology.owl) - It is the geological ontology used in this work. We borrowed most of the classes and relations from BFO and GeoCore and created some definitions specifically for the Petro KGraph.
-- Petro KGraph
+- Petro KGraph - We built the Petro KGraph from corporate lists that cannot be openly shared. For academic purposes, we built a [public version](https://github.com/Petroles/PetroNLP/blob/main/Petro%20KGraph%20public.owl) using entities and relations lists from the Brazilian National Agency for Petroleum, Natural Gas, and Biofuels (ANP). It is a smaller knowledge graph, but we follow the same procedure described in the paper.
 
 ### Embeddings Models
 
 - [PetroVec](https://petroles.puc-rio.ai/files/embeddings/Petrovec_OeG_Word2vec.zip) - Models trained in Word2vec vectors with 100 dimensions, trained from public resources related to the O&G domain (Petrobras Technical Bulletins, Theses and Dissertations in petroleum related subjects; ANP's technical reports). More models are available on the [Petrolês website](https://petroles.puc-rio.ai/index_en.html).
-- PetroOntoVec
+- PetroOntoVec - PetroOntoVec was trained from the corporate version of the PetroKGraph; consequently, it cannot be published here.
