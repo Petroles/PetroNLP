@@ -9,10 +9,11 @@ The available resources are:
 
 ### Corpora
 
-- Petrolês  
-- PetroGold  
-- PetroNER
-- PetroRE (?)
+Here, you find direct links for the corpora. More information and other corpora are available on the [Petrolês website](https://petroles.puc-rio.ai/index_en.html).
+- [Petrolês](https://petroles.puc-rio.ai/files/Corpora/corpus-SemProcessamento-publico-PetrolesCompleto.zip) - Consolidated file containing all Petrolês' O&G domain-specific corpora (Petrobras Technical Bulletins, Theses and Dissertations from IBICT-BDTD in petroleum-related subjects; ANP's technical reports). 
+- [PetroGold](https://petroles.puc-rio.ai/files/Corpora/petrogold-v3.zip) - Gold standard treebank, with revision of the automatic annotation of lemma, POS and syntactic dependencies according to the framework of the Universal Dependencies project. The content is a subset of the Petrolês corpus. 
+- [PetroNER](https://petroles.puc-rio.ai/files/Corpora/petroner-uri.zip) - Gold standard corpus annotated with named entities in the oil & gas domain. It was built from a set of 11 Technical Reports from Petrobras, which are part of the Petrolês corpus, and were preprocessed in full and morphosyntactically.
+- PetroRE - The relation in PetroRE came from corporate lists; consequently, it cannot be published here.
 
 ### Knowledge Graph
 
