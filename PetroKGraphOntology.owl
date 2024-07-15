@@ -14,6 +14,27 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.semanticweb.org/bg40/ontologies/2022/3/GeoTimesBR</Import>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#abandonned_well"/>
     </Declaration>
     <Declaration>
@@ -782,67 +803,31 @@
         <Class IRI="#o&amp;g_earth_fluid"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#crossed_by"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#crosses"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_time_interval"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_unconsolidated_earth_material"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_generically_depends_on"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_carrier_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -851,13 +836,7 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_process"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -869,16 +848,37 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000092"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001025"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_time_interval"/>
+        <ObjectProperty IRI="#crossed_by"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_age"/>
+        <ObjectProperty IRI="#crosses"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object"/>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_carrier_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_generically_depends_on"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#abandonned_well"/>
@@ -1947,7 +1947,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#well"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#well"/>
@@ -9628,7 +9628,7 @@ https://atosoficiais.com.br/anp/resolucao-n-699-2017-estabelece-os-procedimentos
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#well</IRI>
-        <Literal xml:lang="en">it is an Object Aggregate characterized by a hole drilled in the ground, properly equipped to reach the Reservoir depth.</Literal>
+        <Literal xml:lang="en">Iis a BFO: Site bounded by GeoCore: Earth Material and occupied by well equipment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
